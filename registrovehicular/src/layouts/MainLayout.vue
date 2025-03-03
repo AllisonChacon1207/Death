@@ -26,7 +26,7 @@
               </q-item-section>
             </q-item>
 
-            <q-item active clickable v-ripple to="/Lector.vue">
+            <q-item clickable v-ripple to="/Lector.vue">
               <q-item-section avatar>
                 <q-icon name="star" />
               </q-item-section>
@@ -47,12 +47,7 @@
           </q-list>
         </q-scroll-area>
       </q-drawer>
-
-      <q-page-container>
-        <router-view>
-
-        </router-view>
-      </q-page-container>
+      
     </q-layout>
   </div>
 </template>
