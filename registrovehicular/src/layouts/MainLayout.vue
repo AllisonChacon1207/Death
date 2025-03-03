@@ -18,13 +18,6 @@
       >
         <q-list padding>
           <!------------------------------------------------------------------------------------------------------------->
-          <q-item clickable v-ripple to="/"
-            ><!--------------------------------------------------------------->
-            <q-item-section avatar>
-              <q-icon name="inbox" />
-            </q-item-section>
-            <q-item-section> Inicio </q-item-section>
-          </q-item>
           <!------------------------------------------------------------------------------------------------------------->
           <q-item active clickable v-ripple to="/registrovehicular/src/pages/MiPrimero.vue">
             <q-item-section avatar>
@@ -49,14 +42,14 @@
         ><!------------------------------------------------------------------------------------------> </q-scroll-area
       ><!------------------------------------------------------------------------------------->
       <!-------------------COLOR DE FONDO----------------------------------------------------->
-      <div class="absolute-top" style="height: 150px; background-color: #0ab0b4">
+      <q-img class="absolute-top" src="https://cdn.quasar.dev/img/material.png" style="height: 150px">
         <div class="absolute-bottom bg-transparent">
           <q-avatar size="56px" class="q-mb-sm">
           </q-avatar>
           <div class="text-weight-bold">Allison Fabiola</div>
           <div>Registro Vehicular</div>
         </div>
-      </div>
+      </q-img>
     </q-drawer>
     <!------------------------------------------------------------------------------------------------------------->
     <q-page-container>
@@ -64,8 +57,7 @@
     </q-page-container>
   </q-layout>
 </template>
-<!--------------------------------------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------->
+
 <!------------------------------------------------------------------------------------------------------------->
 <script>
 import { ref, onMounted } from 'vue'
