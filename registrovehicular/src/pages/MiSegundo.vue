@@ -1,14 +1,15 @@
-
 <template>
   <q-page class="flex flex-center">
     <q-btn color="primary" label="Leer NFC" @click="readNFC" />
+    <div v-if="nfcMessage">
+      <p>Mensaje leído: {{ nfcMessage }}</p>
+    </div>
   </q-page>
 </template>
 
 <script>
-/* eslint-disable vue/multi-word-component-names */
+/* eslint-env browser */
 export default {
-  name: 'Lector', // Nombre del componente
   data() {
     return {
       nfcMessage: null,
@@ -43,5 +44,4 @@ export default {
     },
   },
 }
-/* eslint-enable vue/multi-word-component-names */
 </script>

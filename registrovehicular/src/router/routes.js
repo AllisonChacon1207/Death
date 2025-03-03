@@ -4,8 +4,8 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/IndexPage.vue') }, // Ruta principal
-      { path: '/registrovehicular/src/pages/Datos.vue', component: () => import('pages/Datos.vue') }, // Ruta para MiPrimero.vue
-      { path: '/registrovehicular/src/pages/Lector.vue', component: () => import('pages/Lector.vue') }, // Ruta para MiSegundo.vue
+      { path: '/registrovehicular/src/pages/MiPrimero.vue', component: () => import('pages/MiPrimero.vue') }, // Ruta para MiPrimero.vue
+      { path: '/registrovehicular/src/pages/MiSegundo.vue', component: () => import('pages/MiSegundo.vue') }, // Ruta para MiSegundo.vue
     ],
   },
 
