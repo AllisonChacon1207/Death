@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/AllisonChacon1207/Death/issues"
   },
-  "homepage": "https://github.com/AllisonChacon1207/Death#readme"
+  "homepage": "https://github.com/AllisonChacon1207/Death#readme",
+  "devDependencies": {
+    "@quasar/cli": "^2.4.1"
+  }
 }
